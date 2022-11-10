@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logifarma</title>
+
+    <link rel="stylesheet" href="Css/estilo.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section id="vist1">
+            <div id="vist1">
+                <img id="img1" src="img/LogLogifarma.png" alt="">
+            </div>
+            <div id="vist1_1">
+                <img id="img2" src="img/IconAdvertencia.jpg" alt="">
+            </div>
+
+            <article id="vist1">
+                <p id="vist1">
+                    Estas por radicar tu domicilio.<br><br>
+                    Una vez finalices con tu solicitud, iniciaremos la gestión para que el domicilio sea enviado lo más pronto posible.
+
+                </p>
+            </article>
+
+            <button id="btn_vist1">Continuar</button>
+
+        </section>
+
+        <!-- ----------------------------------------------------------------------------- -->
+
+        <section id="vist2">
+
+            <button id="btn_2"><p id="btn">< Atras</p></button>
+
+            <div id="vist2">
+                <img id="img1" src="img/LogLogifarma.png" alt="">
+            </div>
+
+            <div id="vist2_text">
+                <h1>Paso a paso</h1>
+                <p>¡Es muy facil de hacerlo! <br><br> La solicitud cuenta con <strong> 4 pasos...</strong></p>
+            </div>
+
+            <nav id="vist2">
+                <div id="img">
+                    <img id="vist2" src="img/IconAutorizacion.jpg" alt="">
+                    <p id="vist2"><strong>1.Autorizacion de servicio</strong><br>Debes contar con el numero de aoutorizacion de servicio de Cajacopi-EPS</p>
+                </div>
+                <div id="img">
+                    <img id="vist2" src="img/IconFormulaMedica.jpg" alt="">
+                    <p id="vist2"><strong>2.Formula medica o MIPRES</strong><br>Tener a la mano formula medica o MIPRES (No PBS). Necesitamos una imagen de ella</p>
+                </div>
+                <div id="img">
+                    <img id="vist2" src="img/IconUbicacion.jpg" alt="">
+                    <p id="vist2"><strong>3.Lugar de entraga del omicilio</strong><br>Nos informal el lugar donde quieres recibir tu domicilio. (aplica solo para el departamento del ATLANTICO).</p>
+                </div>
+                <div id="img">
+                    <img id="vist2" src="img/IconWhatsApp.jpg" alt="">
+                    <p id="vist2"><strong>4.Numero de celular (WhatsApp)</strong><br>Lo usaremos para informarte cuando el domicilio este en camino</p>
+                </div>
+                
+            </nav>
+
+            <button id="btn_vist2">Continuar</button>
+        </section>
+
+
+        <!-- ----------------------------------------------------------------------------- -->
+
+        <section id="vist3">
+
+            <button id="btn_3"><p id="btn">< Atras</p></button>
+
+            <div id="vist3">
+                <img id="img1" src="img/LogLogifarma.png" alt="">
+            </div>
+
+            <div id="vist3_text">
+            <p id="vist3">Ingresa el numero de</p>
+            <h1 id="vist3">Autorizacion de servicio</h1>
+        </div>
+
+            <input id="inp_vist3" type="number" placeholder="Buscar.." >
+
+            <p id="vist3_t">Validemos que la autorizacion este activa <br> imagen de referencia</p>
+
+            <div id="vist3_img">
+                <img id="vist3" src="img/ImgAutorizacion.jpg" alt="">
+            </div>
+
+            <p id="vist3_t2">Si no cuenta con el nuemro de autorizacion por favor comunicate con Cajacopi-EPS para mayor informacion:</p>
+            <div id="tet"><a id="vist3" href="">08000111446</a></div>
+
+            <button id="btn_vist3">Continuar</button>
+
+        </section>
+
+        <!-- ----------------------------------------------------------------------------- -->
+
+        <section id="vist4">
+
+            <button id="btn_4"><p id="btn">< Atras</p></button>
+
+            <div id="vist4">
+                <img id="img1" src="img/LogLogifarma.png" alt="">
+            </div>
+
+            <h1 id="vist4">¡Envia fotografia de la formula medica!</h1>
+            
+            <p id="vist4">Tomar foto de la formula medica</p>
+
+            <p id="vist4_1"> Recuerda, los medicamenos de la autorizacion deben coincidir con los de la formula</p>
+
+            <fieldset class="form-group">
+                <div class="row">
+                    <div class="radio_check">
+                        <input class="check-input" type="radio" name="radio_select" id="radiosfoto" value="1" checked>
+                        <label class="form-check-label" for="radiosfoto">Seleccionar Foto</label>
+                    </div>
+                    <div class="radio_check">
+                        <input class="check-input" type="radio" name="radio_select" id="radiotfoto" value="0">
+                        <label class="form-check-label" for="radiotfoto">Tomar Foto</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <article id="vist4">
+                <input type="file" class="control-file" name="archivo" id="subirfoto" accept="image/*">
+                <video id="video" autoplay="autoplay" class="video_container none"></video>
+                <canvas id="canvas" class="none"></canvas>
+            </article>
+
+            <button id="btn_vist4">Continuar</button>
+
+        </section>
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+<section id="vist5">
+
+    <button id="btn_5"><p id="btn">< Atras</p></button>
+
+    <div id="vist5">
+        <img id="img1" src="img/LogLogifarma.png" alt="">
+    </div>
+
+    <h1 id="vist5">¿A que direccion enviaremos tu domicilio?</h1>
+    
+    <p id="vist5">El envio de tu domicilio sera Gratis. Te lo haremos llegar lo mas pronto posible</p>
+
+    
+    <div id="vist5_1">
+        <img id="img2" src="img/LogLogifdomicilio.png">
+        <img id="img3" src="img/Imagen1.png" alt="">
+    </div>
+    
+
+    <button id="btn_vist5">Continuar</button>
+
+</section>
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+<section id="vist6">
+
+    <button id="btn_6"><p id="btn">< Atras</p></button>
+
+    <div id="vist6">
+        <img id="img1" src="img/LogLogifarma.png" alt="">
+    </div>
+
+    <h1 id="vist6">Elige el municipio donde enviaremos tu domicilio.</h1>
+
+    <input type="text" name="" list="list6" placeholder="Buscar.." id="inp_vist6">
+    
+    <p id="vist6">* Solo aplica para el departamento del Atlantico</p>
+
+    <datalist id="list6">
+        <option data-value="1">Barranquilla, Atlantico</option>
+        <option data-value="2">Soledad, Atlantico</option>
+        <option data-value="3">Malambo, Atlantico</option>
+        <option data-value="4">Baranoa, Atlantico</option>
+        <option data-value="5">Galapa, Atlantico</option>
+        <option data-value="6">Sabanalarga, Atlantico</option>
+    </datalist>
+
+
+    <!-- <nav id="vist6">
+        <div id="ra">
+            <input type="radio" name="radi_1" id="rad" value="1">
+            <label for="" id="radi_tex">Barranquilla, Atlantico</label>
+        </div>
+        <div id="ra">
+            <input type="radio" name="radi_2" id="rad" value="2">
+        <label for="" id="radi_tex">Soledad, Atlantico</label>
+        </div>
+        <div id="ra">
+            <input type="radio" name="radi_2" id="rad" value="2">
+        <label for="" id="radi_tex">Malambo, Atlantico</label>
+        </div>
+        <div id="ra">
+            <input type="radio" name="radi_4" id="rad" value="4">
+        <label for="" id="radi_tex">Baranoa, Atlantico</label>
+        </div>
+        <div id="ra">
+            <input type="radio" name="radi_5" id="rad" value="5">
+        <label for="" id="radi_tex">Galapa, Atlantico</label>
+        </div>
+        <div id="ra">
+            <input type="radio" name="radi_6" id="rad" value="6">
+        <label for="" id="radi_tex">Sabanalarga, Atlantico</label>
+        </div>
+
+    </nav> -->
+
+    <button id="btn_vist6">Continuar</button>
+
+</section>
+
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+
+<section id="vist7">
+
+    <button id="btn_7"><p id="btn">< Atras</p></button>
+
+    <div id="vist7">
+        <img id="img1" src="img/LogLogifarma.png" alt="">
+    </div>
+
+    <h1 id="vist7">Elige el barrio donde enviaremos tu domicilio.</h1>
+
+    <input type="text" name="" list="list7" placeholder="Buscar.." id="inp_vist7">
+
+    <datalist id="list7">
+        <option data-value="1">El Valle, Barranquilla</option>
+        <option data-value="2">Ejemplo, Barranquilla</option>
+        <option data-value="3">Ejemplo, Barranquilla</option>
+        <option data-value="4">Ejemplo, Barranquilla</option>
+        <option data-value="5">Ejemplo, Barranquilla</option>
+        <option data-value="6">Ejemplo, Barranquilla</option>
+    </datalist>
+
+    <!-- <nav id="vist7">
+        <div id="ra7">
+            <input type="radio" name="radi_1" id="rad7" value="1">
+            <label for="" id="radi_tex7">Barranquilla, Atlantico</label>
+        </div>
+        <div id="ra7">
+            <input type="radio" name="radi_2" id="rad7" value="2">
+        <label for="" id="radi_tex7">Soledad, Atlantico</label>
+        </div>
+        <div id="ra7">
+            <input type="radio" name="radi_2" id="rad7" value="2">
+        <label for="" id="radi_tex7">Soledad, Atlantico</label>
+        </div>
+        <div id="ra7">
+            <input type="radio" name="radi_4" id="rad7" value="4">
+        <label for="" id="radi_tex7">Baranoa, Atlantico</label>
+        </div>
+        <div id="ra7">
+            <input type="radio" name="radi_5" id="rad7" value="5">
+        <label for="" id="radi_tex7">Galapa, Atlantico</label>
+        </div>
+        <div id="ra7">
+            <input type="radio" name="radi_6" id="rad7" value="6">
+        <label for="" id="radi_tex7">Sabanalarga, Atlantico</label>
+        </div>
+        
+    </nav> -->
+
+    <button id="btn_vist7">Continuar</button>
+
+
+</section>
+
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+
+<section id="vist8">
+
+    <button id="btn_8"><p id="btn">< Atras</p></button>
+
+    <div id="vist8">
+        <img id="img1" src="img/LogLogifarma.png" alt="">
+    </div>
+
+    <h1 id="vist8">¿A que direccion enviamos tu domicilio?</h1>
+
+    <input type="text" name="" placeholder="Digitar.." id="inp_vist8">
+    
+    <p id="vist8">Digita la direccion donde enviaremos tu domicilio.</p>
+
+    <button id="btn_vist8">Continuar</button>
+
+</section>
+
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+
+<section id="vist9">
+
+    <button id="btn_9"><p id="btn">< Atras</p></button>
+
+    <div id="vist9">
+        <img id="img1" src="img/LogLogifarma.png" alt="">
+    </div>
+
+    <h1 id="vist9">¿Cual es tu nuemro de celular?</h1>
+
+    <input type="text" name="" placeholder="Digitar.." id="inp_vist9">
+    
+    <p id="vist9">Te informaremos por este medio cuando el domicilio este en camino.</p>
+
+    <h1 id="vist9_t">¿Cual es tu Correo electronico?</h1>
+
+    <input type="text" name="" placeholder="Digitar.." id="inp_vist9_t">
+    
+    <p id="vist9_t">Este campo no es obligatorio.</p>
+
+    <button id="btn_vist9">Continuar</button>
+
+</section>
+
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+
+<section id="vist10">
+
+    <button id="btn_10"><p id="btn">< Atras</p></button>
+
+    <div id="vist10">
+        <img id="img1" src="img/LogLogifarma.png" alt="">
+    </div>
+
+    <h1 id="vist10">¡Proceso terminado!</h1>
+
+    <p id="vist10">Nos encontramos haciendo validación de tus documentos, si todo esta correcto un agente le notificara la radicación exitosa de su solicitud.</p>
+
+    <button id="btn_vist10">Continuar</button>
+
+</section>
+
+
+
+
+
+
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
